@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /* z-index: 0; */
+    position: relative;
+    height: 760px;
+    width: 1480px;
+    background-color: #5D5DFF;
+    overflow: hidden;
+}
+
+.rectangle-1 {
+    position: absolute;
+    width: 1082px;
+    height: 376px;
+    right: -600px;
+    top: -160px;
+    background: #050505;
+    box-shadow: 0px 34px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 300px;
+    transform: rotate(-30deg);
+}
+
+.rectangle-2 {
+    position: absolute;
+    background-color: black;
+    height: 147px;
+    width: 492px;
+    left: 0;
+    top: 100%;
+    border-radius: 0 1000px 0 0;
+    transform: translate(0, -100%);
+}
+
+.card {
+    background-color: white;
+    width: 390px;
+    height: 207px;
+    position: absolute;
+    box-shadow: 0px 22px 48px 0 rgba(71, 71, 185, 1);
+}
+
+.banner {
+    z-index: 0;
+    background-color: black;
+    width: 311px;
+    height: 60px;
+    position: absolute;
+    top: -15px;
+    left: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 15px 18px 30px 0 rgba(57, 57, 188, 0.16);
+}
+
+.card>img {
+    z-index: 1;
+    position: relative;
+    transform: translate(-22px, -25px);
+    box-shadow: 15px 18px 30px 0 rgba(57, 57, 188, 0.16);
+}
+
+.name-container {
+    margin-left: 46px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: fit-content;
+    font-family: 'Manrope', sans-serif;
+}
+
+.name {
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.postion {
+    font-size: 8px;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-right: 2px;
+}
+
+.testimonial-container>img {
+    height: 13px;
+}
+
+.testimonial-text {
+    color: white;
+    font-size: 8px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 2px 10px;
+}
+
+.rating-stars>img {
+    margin: 1px;
+    height: 12px;
+}
+
+.rating-stars img:last-child {
+    margin-right: 0;
+}
+
+.rating-stars:nth-child(5) {
+    margin: 1px 0 1px 1px;
+    height: 15px;
+}
+
+.card-content {
+    padding: 0 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card-quotes {
+    position: absolute;
+    left: 20px;
+    bottom: -35px;
+}
+
+.pos1 {
+    left: 81px;
+    top: 148px;
+}
+
+.pos2 {
+    left: 524px;
+    top: 310px;
+    height: 228px;
+}
+
+.pos3 {
+    left: 963px;
+    top: 450px;
+}
